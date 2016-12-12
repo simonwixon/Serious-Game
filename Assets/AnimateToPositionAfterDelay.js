@@ -19,8 +19,12 @@ function Update () {
 		var k:float = animationCurve.Evaluate((j*1.0)/frames);
 		transform.position = startPosition + Vector3(k*(targetPosition.x-startPosition.x), k*(targetPosition.y-startPosition.y), k*(targetPosition.z-startPosition.z));
 		if(j>frames){
-			transform.position=targetPosition;
-			enabled=false;
+			SkipToEnd();
 		}
 	}
+}
+
+function SkipToEnd(){
+	transform.position=targetPosition;
+	enabled=false;
 }
