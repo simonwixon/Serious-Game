@@ -2,10 +2,18 @@
 
 var target:GameObject;
 var targetLocated:boolean;
-
+var smoothArrow:GameObject;
+var emergencyLocations:Vector2[];
 
 function Start () {
-
+	if(Globals.currentEmergency == -1){
+		smoothArrow.SetActive(false);
+		target.SetActive(false);
+		gameObject.SetActive(false);
+	} else {
+		target.transform.position.x = emergencyLocations[Globals.currentEmergency].x;
+		target.transform.position.y = emergencyLocations[Globals.currentEmergency].y;
+	}
 }
 
 function FixedUpdate () {
