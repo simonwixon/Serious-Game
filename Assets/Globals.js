@@ -1,11 +1,4 @@
 ﻿#pragma strict
 
 public static var firstPlay:boolean = true;
-
-function Start () {
-
-}
-
-function Update () {
-
-}
+public static var trainingComplete:boolean[] = new boolean[6];
