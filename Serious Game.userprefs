@@ -1,11 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FollowMouse.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Target.js">
     <Files>
-      <File FileName="Assets/FadeOutAfterDelay.js" Line="18" Column="24" />
-      <File FileName="Assets/AnimateToPositionAfterDelay.js" Line="20" Column="13" />
-      <File FileName="Assets/ShowOnMouseOver.js" Line="9" Column="47" />
+      <File FileName="Assets/FadeOutAfterDelay.js" Line="1" Column="1" />
+      <File FileName="Assets/AnimateToPositionAfterDelay.js" Line="1" Column="1" />
+      <File FileName="Assets/ShowOnMouseOver.js" Line="1" Column="1" />
       <File FileName="Assets/FollowMouse.js" Line="1" Column="1" />
+      <File FileName="Assets/Arrow.js" Line="1" Column="1" />
+      <File FileName="Assets/FollowObjectSmoothly.js" Line="1" Column="1" />
+      <File FileName="Assets/ArrowBounce.js" Line="1" Column="1" />
+      <File FileName="Assets/Target.js" Line="1" Column="1" />
+      <File FileName="Assets/Globals.js" Line="1" Column="1" />
+      <File FileName="Assets/PhoneRing.js" Line="1" Column="1" />
+      <File FileName="Assets/Phone.js" Line="1" Column="1" />
+      <File FileName="Assets/AcceptCall.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

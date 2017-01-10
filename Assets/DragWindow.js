@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-private var dragging:boolean;
+var dragging:boolean;
 private var offset:Vector3;
 
 function Start () {
