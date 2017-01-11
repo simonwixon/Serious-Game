@@ -1,19 +1,30 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Target.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ShowIfTrainingComplete.js">
     <Files>
+      <File FileName="Assets/DragWindow.js" Line="3" Column="1" />
       <File FileName="Assets/FadeOutAfterDelay.js" Line="1" Column="1" />
       <File FileName="Assets/AnimateToPositionAfterDelay.js" Line="1" Column="1" />
       <File FileName="Assets/ShowOnMouseOver.js" Line="1" Column="1" />
-      <File FileName="Assets/FollowMouse.js" Line="1" Column="1" />
+      <File FileName="Assets/FollowMouse.js" Line="9" Column="25" />
       <File FileName="Assets/Arrow.js" Line="1" Column="1" />
       <File FileName="Assets/FollowObjectSmoothly.js" Line="1" Column="1" />
       <File FileName="Assets/ArrowBounce.js" Line="1" Column="1" />
       <File FileName="Assets/Target.js" Line="1" Column="1" />
-      <File FileName="Assets/Globals.js" Line="1" Column="1" />
+      <File FileName="Assets/Globals.js" Line="3" Column="44" />
       <File FileName="Assets/PhoneRing.js" Line="1" Column="1" />
-      <File FileName="Assets/Phone.js" Line="1" Column="1" />
+      <File FileName="Assets/Phone.js" Line="6" Column="20" />
       <File FileName="Assets/AcceptCall.js" Line="1" Column="1" />
+      <File FileName="Assets/Course.js" Line="13" Column="35" />
+      <File FileName="Assets/ScissorsTarget.js" Line="14" Column="31" />
+      <File FileName="Assets/ShowForSteps.js" Line="14" Column="45" />
+      <File FileName="Assets/TextForSteps.js" Line="4" Column="8" />
+      <File FileName="Assets/PressureGauge.js" Line="30" Column="17" />
+      <File FileName="Assets/Arm.js" Line="32" Column="22" />
+      <File FileName="Assets/Dot.js" Line="30" Column="3" />
+      <File FileName="Assets/Path.js" Line="14" Column="21" />
+      <File FileName="Assets/ClickToShowAndHide.js" Line="12" Column="32" />
+      <File FileName="Assets/ShowIfTrainingComplete.js" Line="9" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
