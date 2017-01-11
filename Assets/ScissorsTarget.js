@@ -11,5 +11,6 @@ function Start () {
 function OnMouseEnter () {
 	if(scissors.dragging && step==course.step){
 		course.step++;
+		transform.position.x=100000;
 	}
 }

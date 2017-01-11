@@ -26,10 +26,10 @@ function Update () {
 			GetComponent(SpriteRenderer).color = Color.white;
 		}
 
-		if(transform.eulerAngles.z<140){
+		if(transform.eulerAngles.z<136){
 			print(transform.eulerAngles.z);
-			transform.eulerAngles.z=140;
-			targetRotation=140;
+			transform.eulerAngles.z=136;
+			targetRotation=136;
 			course.step=7;
 		}
 	}

@@ -2,8 +2,10 @@
 
 var trainingId:int;
 
-function Start () {
+function Update () {
 	if(!Globals.trainingComplete[trainingId]){
-		gameObject.SetActive(false);
+		GetComponent(SpriteRenderer).enabled=false;
+	} else {
+		GetComponent(SpriteRenderer).enabled=true;
 	}
 }
