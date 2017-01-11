@@ -4,8 +4,8 @@ var trainingId:int;
 
 function Update () {
 	if(!Globals.trainingComplete[trainingId]){
-		GetComponent(SpriteRenderer).enabled=false;
+		GetComponent(DynamicText).SetText("");
 	} else {
-		GetComponent(SpriteRenderer).enabled=true;
+		GetComponent(DynamicText).SetText("✓");
 	}
 }
